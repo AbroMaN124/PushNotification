@@ -62,7 +62,7 @@ public class PushControllerTest {
   }
 
   @Test
-  public void pushNotification() throws Exception {
+  public void pushNotificationForUnregisteredUser() throws Exception {
 
     CreatePushElement request = new CreatePushElement().setType("note").setTitle("title").setBody("body");
 
